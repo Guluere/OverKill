@@ -3,7 +3,7 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace LegendariesMod.Items.Weapons
+namespace OverKill.Items.Weapons
 {
 	public class RapierOfGods : ModItem
 	{

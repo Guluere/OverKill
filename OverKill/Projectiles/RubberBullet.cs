@@ -4,7 +4,7 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace LegendariesMod.Projectiles
+namespace OverKill.Projectiles
 {
 	public class RubberBullet : ModProjectile
 	{
