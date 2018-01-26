@@ -25,9 +25,27 @@ namespace OverKill
                 {
                     progress.Message = "Blessing the sky with Caelumite";
 
-                    for (int k = 0; k < (int)(Main.maxTilesX)*(Main.worldSurface - 255)*(0.08); k++)
+                    for (int k = 0; k < (int)((Main.maxTilesX) * (Main.worldSurface - 100) * (0.05)); k++)
                     {
-                        WorldGen.TileRunner(WorldGen.genRand.Next(0, Main.maxTilesX), WorldGen.genRand.Next(0, (int)Main.worldSurface - 255), (double)WorldGen.genRand.Next(3, 6), WorldGen.genRand.Next(2, 6), mod.TileType("Caelumite"), false, 0f, 0f, false, true);
+                        int SpawnTileY = WorldGen.genRand.Next(10, (int)(WorldGen.worldSurface) - 100);
+                        int SpawnTileX = WorldGen.genRand.Next(10, Main.maxTilesX - 10);
+                        bool onFloatingIsland = false;
+
+
+                        for (int m = 1; m < 10; m++) // Check within a 10 tile radius for clouds
+                        {
+                            for (int n = 1; n < 10; n++)
+                            {
+                                Tile tile = Framing.GetTileSafely(SpawnTileX + n, SpawnTileY + m);
+                                if (tile.active()) { if (tile.type == TileID.Cloud) { onFloatingIsland = true; } } 
+                                tile = Framing.GetTileSafely(SpawnTileX - n, SpawnTileY - m);
+                                if (tile.active()) { if (tile.type == TileID.Cloud) { onFloatingIsland = true; } }
+                            }
+                        }
+                        if (onFloatingIsland) // If there are clouds within a 10 tile radius then generate the ore
+                        {
+                            WorldGen.TileRunner(SpawnTileX, SpawnTileY, WorldGen.genRand.Next(3, 6), WorldGen.genRand.Next(2, 6), mod.TileType("Caelumite"), false, 0f, 0f, false, true);
+                        }
                     }
                 }));
             }
