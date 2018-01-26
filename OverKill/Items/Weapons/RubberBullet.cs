@@ -1,6 +1,5 @@
 using Terraria.ID;
 using Terraria.ModLoader;
-using Terraria.Localization;
 
 namespace OverKill.Items.Weapons
 {	
@@ -8,9 +7,8 @@ namespace OverKill.Items.Weapons
 	{
 		public override void SetStaticDefaults()
 		{
-			Tooltip.SetDefault("'Bounce, bounce, bounce!'");
-            Tooltip.AddTranslation(GameCulture.Spanish, "'¡Toing, toing, toing!'");
-        }
+			Tooltip.SetDefault("Bounce Bounce Bounce!");
+		}
 
 		public override void SetDefaults()
 		{

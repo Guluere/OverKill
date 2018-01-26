@@ -2,7 +2,6 @@ using Microsoft.Xna.Framework;
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
-using Terraria.Localization;
 
 namespace OverKill.Items.Weapons
 {
@@ -10,9 +9,8 @@ namespace OverKill.Items.Weapons
 	{
 		public override void SetStaticDefaults()
 		{
-			Tooltip.SetDefault("'There is copper in your eye!'");
-            Tooltip.AddTranslation(GameCulture.Spanish, "'¡Hay cobre en tus ojos!'");
-        }
+			Tooltip.SetDefault("There is copper in your eye!");
+		}
 
 		public override void SetDefaults()
 		{
@@ -38,7 +36,7 @@ namespace OverKill.Items.Weapons
 			recipe.AddIngredient(ItemID.CopperBar, 200);
 			recipe.AddIngredient(175, 20);
 			recipe.AddIngredient(3508);
-			recipe.AddTile(TileID.Anvils);
+			recipe.AddTile(TileID.Anvil);
 			recipe.SetResult(this);
 			recipe.AddRecipe();
 		}
