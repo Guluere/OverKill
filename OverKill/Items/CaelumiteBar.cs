@@ -20,6 +20,7 @@ namespace OverKill.Items
         {
             item.width = 30;
             item.height = 24;
+            item.maxStack = 99;
             item.value = 5400;
             item.rare = 2;
         }

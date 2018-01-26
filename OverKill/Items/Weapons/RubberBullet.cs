@@ -34,7 +34,7 @@ namespace OverKill.Items.Weapons
 		{
 			ModRecipe recipe = new ModRecipe(mod);
 			recipe.AddIngredient(ItemID.Gel, 250);
-			recipe.AddTile(18);
+			recipe.AddTile(TileID.WorkBenches);
 			recipe.SetResult(this, 50);
 			recipe.AddRecipe();
 		}

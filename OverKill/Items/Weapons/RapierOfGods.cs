@@ -18,18 +18,18 @@ namespace OverKill.Items.Weapons
 
 		public override void SetDefaults()
 		{
-			item.damage = 255;           //The damage of your weapon
-			item.melee = true;          //Is your weapon a melee weapon?
-			item.width = 90;            //Weapon's texture's width
-			item.height = 90;           //Weapon's texture's height
-			item.useTime = 5;          //The time span of using the weapon. Remember in terraria, 60 frames is a second.
-			item.useAnimation = 5;         //The time span of the using animation of the weapon, suggest set it the same as useTime.
-			item.useStyle = 3;          //The use style of weapon, 1 for swinging, 2 for drinking, 3 act like shortsword, 4 for use like life crystal, 5 for use staffs or guns
-			item.knockBack = 1;         //The force of knockback of the weapon. Maximum is 20
-			item.value = Item.buyPrice(gold: 20);           //The value of the weapon
-			item.rare = 11;              //The rarity of the weapon, from -1 to 13
-			item.UseSound = SoundID.Item1;      //The sound when the weapon is using
-			item.autoReuse = true;          //Whether the weapon can use automatically by pressing mousebutton
+			item.damage = 255;
+			item.melee = true;
+			item.width = 124;
+			item.height = 124;
+			item.useTime = 5;
+			item.useAnimation = 5;
+			item.useStyle = 3;
+			item.knockBack = 1;
+            item.value = 524500;
+			item.rare = 11; 
+			item.UseSound = SoundID.Item1;
+			item.autoReuse = true;
 		}
 
 		public override void AddRecipes()

@@ -104,13 +104,10 @@ namespace OverKill.Items.Weapons
 
 		public override bool Shoot(Player player, ref Vector2 position, ref float speedX, ref float speedY, ref int type, ref int damage, ref float knockBack)
 		{
-			// Fix the speedX and Y to point them horizontally.
 			speedX = new Vector2(speedX, speedY).Length() * (speedX > 0 ? 1 : -1);
 			speedY = 0;
-			// Add random Rotation
 			Vector2 speed = new Vector2(speedX, speedY);
 			speed = speed.RotatedByRandom(MathHelper.ToRadians(30));
-			// Change the damage since it is based off the weapons damage and is too high
 			damage = (int)(damage * .1f);
 			speedX = speed.X;
 			speedY = speed.Y;
