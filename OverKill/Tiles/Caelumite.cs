@@ -14,6 +14,7 @@ namespace OverKill.Tiles
             Main.tileLighted[Type] = true;
             soundType = 21;
             minPick = 65;
+            mineResist = 2f;
             drop = mod.ItemType("Caelumite");
             AddMapEntry(new Color(0, 195, 220));
         }

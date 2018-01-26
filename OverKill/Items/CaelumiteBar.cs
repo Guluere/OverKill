@@ -28,6 +28,13 @@ namespace OverKill.Items
         {
             ModRecipe recipe = new ModRecipe(mod);
             recipe.AddIngredient(mod.ItemType("Caelumite"),3);
+            recipe.AddIngredient(TileID.Cloud, 1);
+            recipe.AddTile(TileID.Hellforge);
+            recipe.SetResult(this);
+            recipe.AddRecipe();
+            recipe = new ModRecipe(mod);
+            recipe.AddIngredient(mod.ItemType("Caelumite"), 3);
+            recipe.AddIngredient(TileID.RainCloud, 1);
             recipe.AddTile(TileID.Hellforge);
             recipe.SetResult(this);
             recipe.AddRecipe();

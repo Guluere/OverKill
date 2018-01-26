@@ -25,12 +25,9 @@ namespace OverKill
                 {
                     progress.Message = "Blessing the sky with Caelumite";
 
-                    for (int k = 0; k < (int)(Main.maxTilesX)*(Main.worldSurface - 255)*(0.1); k++)
+                    for (int k = 0; k < (int)(Main.maxTilesX)*(Main.worldSurface - 255)*(0.08); k++)
                     {
-                        bool successfulPlace = false;
-                        while (!successfulPlace) {
-                            WorldGen.TileRunner(WorldGen.genRand.Next(0, Main.maxTilesX), WorldGen.genRand.Next(0, (int)Main.worldSurface - 255), (double)WorldGen.genRand.Next(3, 6), WorldGen.genRand.Next(2, 6), mod.TileType("Caelumite"), false, 0f, 0f, false, true);
-                        }
+                        WorldGen.TileRunner(WorldGen.genRand.Next(0, Main.maxTilesX), WorldGen.genRand.Next(0, (int)Main.worldSurface - 255), (double)WorldGen.genRand.Next(3, 6), WorldGen.genRand.Next(2, 6), mod.TileType("Caelumite"), false, 0f, 0f, false, true);
                     }
                 }));
             }
