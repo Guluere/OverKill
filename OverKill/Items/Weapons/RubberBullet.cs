@@ -8,7 +8,9 @@ namespace OverKill.Items.Weapons
 	{
 		public override void SetStaticDefaults()
 		{
-			Tooltip.SetDefault("'Bounce, bounce, bounce!'");
+            DisplayName.SetDefault("Rubber Bullet");
+            Tooltip.SetDefault("'Bounce, bounce, bounce!'");
+            DisplayName.AddTranslation(GameCulture.Spanish, "Bala de goma");
             Tooltip.AddTranslation(GameCulture.Spanish, "'¡Toing, toing, toing!'");
         }
 

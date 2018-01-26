@@ -10,7 +10,9 @@ namespace OverKill.Items.Weapons
 	{
 		public override void SetStaticDefaults()
 		{
+            DisplayName.SetDefault("Ice Blaze");
             Tooltip.SetDefault("'You cold hearted bastard!'");
+            DisplayName.AddTranslation(GameCulture.Spanish, "Resplandor del hielo");
             Tooltip.AddTranslation(GameCulture.Spanish, "'¡Bastardo de corazón frío!'");
         }
 

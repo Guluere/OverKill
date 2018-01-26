@@ -10,7 +10,9 @@ namespace OverKill.Items.Weapons
 	{
 		public override void SetStaticDefaults()
 		{
+            DisplayName.SetDefault("Metallic Copper");
 			Tooltip.SetDefault("'There is copper in your eye!'");
+            DisplayName.AddTranslation(GameCulture.Spanish, "Cobre metálico");
             Tooltip.AddTranslation(GameCulture.Spanish, "'¡Hay cobre en tus ojos!'");
         }
 

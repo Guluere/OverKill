@@ -10,7 +10,9 @@ namespace OverKill.Items.Weapons
 	{
 		public override void SetStaticDefaults()
 		{
-			Tooltip.SetDefault("'By sacrificing lots of souls, you have made a weapon to slay gods.'");
+            DisplayName.SetDefault("Rapier of Gods");
+            Tooltip.SetDefault("'By sacrificing lots of souls, you have made a weapon to slay gods.'");
+            DisplayName.AddTranslation(GameCulture.Spanish, "Estoque de los dioses");
             Tooltip.AddTranslation(GameCulture.Spanish, "'Al sacrificar muchas almas, tu has hecho una arma que puede matar los dioses.'");
         }
 
