@@ -2,6 +2,7 @@ using Microsoft.Xna.Framework;
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
+using Terraria.Localization;
 
 namespace OverKill.Items.Weapons
 {
@@ -9,8 +10,9 @@ namespace OverKill.Items.Weapons
 	{
 		public override void SetStaticDefaults()
 		{
-			Tooltip.SetDefault("You cold hearted bastard!");
-		}
+            Tooltip.SetDefault("'You cold hearted bastard!'");
+            Tooltip.AddTranslation(GameCulture.Spanish, "'¡Bastardo de corazón frío!'");
+        }
 
 		public override void SetDefaults()
 		{

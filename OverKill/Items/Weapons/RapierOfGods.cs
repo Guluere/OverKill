@@ -2,6 +2,7 @@ using Microsoft.Xna.Framework;
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
+using Terraria.Localization;
 
 namespace OverKill.Items.Weapons
 {
@@ -9,8 +10,9 @@ namespace OverKill.Items.Weapons
 	{
 		public override void SetStaticDefaults()
 		{
-			Tooltip.SetDefault("By sacrificing lots of souls, you have made a weapon to slay gods.");  //The (English) text shown below your weapon's name
-		}
+			Tooltip.SetDefault("'By sacrificing lots of souls, you have made a weapon to slay gods.'");
+            Tooltip.AddTranslation(GameCulture.Spanish, "'Al sacrificar muchas almas, tu has hecho una arma que puede matar los dioses.'");
+        }
 
 		public override void SetDefaults()
 		{
