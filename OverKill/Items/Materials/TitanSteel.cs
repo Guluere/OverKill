@@ -18,8 +18,8 @@ namespace OverKill.Items.Materials
 
         public override void SetDefaults()
         {
-            item.width = 40;
-            item.height = 32;
+            item.width = 52;
+            item.height = 34;
             item.value = 345000;
             item.rare = 6;
             item.maxStack = 99;
