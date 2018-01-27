@@ -4,7 +4,7 @@ using Terraria.ID;
 using Terraria.ModLoader;
 using Terraria.Localization;
 
-namespace OverKill.Items
+namespace OverKill.Items.Placeables
 {
     public class Caelumite : ModItem
     {
