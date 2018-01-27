@@ -4,9 +4,9 @@ using Terraria.ID;
 using Terraria.ModLoader;
 using Terraria.Localization;
  
-namespace OverKill.Items
+namespace OverKill.Items.Blocks
 {
-    public class Caelumite : ModItem
+    public class CaelumiteBrick : ModItem
     {
         public override void SetStaticDefaults()
         {

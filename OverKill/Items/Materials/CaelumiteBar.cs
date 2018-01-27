@@ -4,7 +4,7 @@ using Terraria.ID;
 using Terraria.ModLoader;
 using Terraria.Localization;
 
-namespace OverKill.Items
+namespace OverKill.Items.Materials
 {
     public class CaelumiteBar : ModItem
     {

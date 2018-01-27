@@ -22,6 +22,7 @@ namespace OverKill.Items.Materials
             item.height = 24;
             item.value = 12000;
             item.rare = 3;
+            item.maxStack = 99;
         }
 
         public override void AddRecipes()
