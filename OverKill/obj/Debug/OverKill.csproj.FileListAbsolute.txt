@@ -1,0 +1,9 @@
+C:\Users\kmill\Desktop\Folders\GuluereMod\OverKill\bin\Debug\OverKill.dll
+C:\Users\kmill\Desktop\Folders\GuluereMod\OverKill\bin\Debug\OverKill.pdb
+C:\Users\kmill\Desktop\Folders\GuluereMod\OverKill\bin\Debug\Microsoft.Xna.Framework.dll
+C:\Users\kmill\Desktop\Folders\GuluereMod\OverKill\bin\Debug\Microsoft.Xna.Framework.Game.dll
+C:\Users\kmill\Desktop\Folders\GuluereMod\OverKill\bin\Debug\Microsoft.Xna.Framework.Graphics.dll
+C:\Users\kmill\Desktop\Folders\GuluereMod\OverKill\bin\Debug\Microsoft.Xna.Framework.Xact.dll
+C:\Users\kmill\Desktop\Folders\GuluereMod\OverKill\bin\Debug\Terraria.exe
+C:\Users\kmill\Desktop\Folders\GuluereMod\OverKill\obj\Debug\OverKill.dll
+C:\Users\kmill\Desktop\Folders\GuluereMod\OverKill\obj\Debug\OverKill.pdb

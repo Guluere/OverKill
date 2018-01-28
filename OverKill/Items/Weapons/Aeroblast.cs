@@ -11,9 +11,9 @@ namespace OverKill.Items.Weapons
         public override void SetStaticDefaults()
         {
             DisplayName.SetDefault("Aeroblast");
-            Tooltip.SetDefault("Fires balls of dense humidity onto your enemy");
+            Tooltip.SetDefault("Fires balls of dense humidity onto your enemy\nHeals up to 8 life on enemy hits");
             DisplayName.AddTranslation(GameCulture.Spanish, "Aero-ráfaga");
-            Tooltip.AddTranslation(GameCulture.Spanish, "Dispara esferas de la humedad para tú enemigo");
+            Tooltip.AddTranslation(GameCulture.Spanish, "Dispara esferas de la humedad para tú enemigo\nDa a usted hasta 8 HP cuando golpea a un enemigo");
             Item.staff[item.type] = true;
         }
 
