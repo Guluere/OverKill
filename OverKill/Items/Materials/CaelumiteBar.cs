@@ -22,6 +22,15 @@ namespace OverKill.Items.Materials
             item.height = 24;
             item.value = 5400;
             item.rare = 2;
+			item.maxStack = 99;
+			item.useTurn = true;
+			item.autoReuse = true;
+			item.useAnimation = 15;
+			item.useTime = 10;
+			item.useStyle = 1;
+			item.consumable = true;
+			item.createTile = mod.TileType("CaelumiteBarTile");
+			item.placeStyle = 0;
         }
 
         public override void AddRecipes()

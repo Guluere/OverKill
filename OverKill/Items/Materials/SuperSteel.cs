@@ -23,6 +23,14 @@ namespace OverKill.Items.Materials
             item.value = 12000;
             item.rare = 3;
             item.maxStack = 99;
+			item.useTurn = true;
+			item.autoReuse = true;
+			item.useAnimation = 15;
+			item.useTime = 10;
+			item.useStyle = 1;
+			item.consumable = true;
+			item.createTile = mod.TileType("SuperSteelTile");
+			item.placeStyle = 0;
         }
 
         public override void AddRecipes()

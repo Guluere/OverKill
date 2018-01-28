@@ -2,7 +2,7 @@
 using Terraria;
 using Terraria.ModLoader;
 
-namespace OverKill.Tiles
+namespace OverKill.Tiles.Blocks
 {
     public class Caelumite : ModTile
     {

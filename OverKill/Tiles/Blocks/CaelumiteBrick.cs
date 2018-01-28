@@ -2,7 +2,7 @@ using Microsoft.Xna.Framework;
 using Terraria;
 using Terraria.ModLoader;
  
-namespace OverKill.Tiles
+namespace OverKill.Tiles.Blocks
 {
     public class CaelumiteBrick : ModTile
     {
