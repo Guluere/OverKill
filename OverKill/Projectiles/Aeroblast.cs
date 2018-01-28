@@ -16,7 +16,7 @@ namespace OverKill.Projectiles
 
         public override void SetDefaults()
         {
-            projectile.width = 28;
+            projectile.width = 28; 
             projectile.height = 28;
             projectile.timeLeft = 180;
             projectile.penetrate = -1;
@@ -27,15 +27,40 @@ namespace OverKill.Projectiles
             aiType = ProjectileID.Starfury;
         }
 
+        public override void OnHitNPC(NPC target, int damage, float knockback, bool crit)
+        {
+            Main.player[projectile.owner].statLife += Main.rand.Next(10,24); //Heal between 10 and 24 HP
+
+            Main.PlaySound(SoundID.Shatter, projectile.position); //Play glass shatter sound where the projectile is
+
+            for (int d = 0; d < Main.rand.Next(5,7); d++)
+            {
+                Dust.NewDust(projectile.position, projectile.width, projectile.height, DustID.Vortex, 0f, 0f, 150, default(Color), 1.5f); //Create 5-7 neon teal particles
+            }
+
+            projectile.Kill(); //Kill the projectile
+        }
+
         public override bool OnTileCollide(Vector2 oldVelocity)
         {
-            Main.PlaySound(SoundID.Shatter, projectile.position);
 
-            for (int d = 0; d < 20; d++)
+            if (projectile.position.Y > Main.screenPosition.Y + 160f) //If the projectile is low enough
             {
-                Dust.NewDust(projectile.position, projectile.width, projectile.height, DustID.Vortex, 0f, 0f, 150, default(Color), 1.5f);
+                Main.PlaySound(SoundID.Shatter, projectile.position); //Play glass shatter sound where the projectile is
+
+                for (int d = 0; d < Main.rand.Next(10, 15); d++)
+                {
+                    Dust.NewDust(projectile.position, projectile.width, projectile.height, DustID.Vortex, 0f, 0f, 150, default(Color), 1.5f); //Create 10-15 neon teal particles
+                }
+
+                return true; //Destroy the projectile
             }
-            return true;
-        }
+
+            else
+            {
+                projectile.velocity = oldVelocity; //Don't change direction (don't bounce off)
+                return false; //Don't destroy the projectile
+            }
+        } 
     }
 }

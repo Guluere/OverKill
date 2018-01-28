@@ -34,9 +34,13 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Items\Placeables\Caelumite.cs" />
-    <Compile Include="Items\CaelumiteBar.cs" />
+    <Compile Include="Items\Placeables\CaelumiteBar.cs" />
     <Compile Include="Items\Placeables\CaelumiteBrick.cs" />
+    <Compile Include="Items\Materials\Carbon.cs" />
+    <Compile Include="Items\Placeables\SuperSteel.cs" />
+    <Compile Include="Items\Placeables\TitanSteel.cs" />
     <Compile Include="Items\Weapons\Aeroblast.cs" />
+    <Compile Include="Items\Weapons\HeavyEdge.cs" />
     <Compile Include="Items\Weapons\IceBlaze.cs" />
     <Compile Include="Items\Weapons\MetallicCopper.cs" />
     <Compile Include="Items\Weapons\RapierOfGods.cs" />
@@ -45,7 +49,10 @@
     <Compile Include="OverKillWorld.cs" />
     <Compile Include="Projectiles\Aeroblast.cs" />
     <Compile Include="Projectiles\RubberBullet.cs" />
+    <Compile Include="Tiles\Bars\SuperSteelTile.cs" />
+    <Compile Include="Tiles\Bars\TitanSteelTile.cs" />
     <Compile Include="Tiles\Caelumite.cs" />
+    <Compile Include="Tiles\Bars\CaelumiteBarTile.cs" />
     <Compile Include="Tiles\CaelumiteBrick.cs" />
   </ItemGroup>
   <ItemGroup>

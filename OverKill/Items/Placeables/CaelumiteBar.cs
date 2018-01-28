@@ -4,7 +4,7 @@ using Terraria.ID;
 using Terraria.ModLoader;
 using Terraria.Localization;
 
-namespace OverKill.Items
+namespace OverKill.Items.Placeables
 {
     public class CaelumiteBar : ModItem
     {
@@ -23,6 +23,14 @@ namespace OverKill.Items
             item.maxStack = 99;
             item.value = 5400;
             item.rare = 2;
+            item.useTurn = true;
+            item.autoReuse = true;
+            item.useAnimation = 15;
+            item.useTime = 10;
+            item.useStyle = 1;
+            item.consumable = true;
+            item.createTile = mod.TileType("CaelumiteBarTile");
+            item.placeStyle = 0;
         }
 
         public override void AddRecipes()

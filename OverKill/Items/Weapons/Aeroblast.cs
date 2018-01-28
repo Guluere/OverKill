@@ -11,9 +11,9 @@ namespace OverKill.Items.Weapons
         public override void SetStaticDefaults()
         {
             DisplayName.SetDefault("Aeroblast");
-            Tooltip.SetDefault("Fires balls of dense humidity onto your enemy.");
+            Tooltip.SetDefault("Fires balls of dense humidity onto your enemy");
             DisplayName.AddTranslation(GameCulture.Spanish, "Aero-ráfaga");
-            Tooltip.AddTranslation(GameCulture.Spanish, "Dispara esferas de la humedad para tú enemigo.");
+            Tooltip.AddTranslation(GameCulture.Spanish, "Dispara esferas de la humedad para tú enemigo");
             Item.staff[item.type] = true;
         }
 
@@ -33,7 +33,6 @@ namespace OverKill.Items.Weapons
             item.rare = 5;
             item.shoot = mod.ProjectileType("Aeroblast");
             item.UseSound = SoundID.Item20;
-            item.autoReuse = true;
             item.shootSpeed = 16f;
         }
 
