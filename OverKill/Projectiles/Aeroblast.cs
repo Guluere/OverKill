@@ -29,7 +29,9 @@ namespace OverKill.Projectiles
 
         public override void OnHitNPC(NPC target, int damage, float knockback, bool crit)
         {
-            Main.player[projectile.owner].HealEffect(Main.rand.Next(5,8)); //Heal between 5 and 8 life
+            int heal = Main.rand.Next(5, 8); //Heal between 5 and 8 life
+            Main.player[projectile.owner].HealEffect(heal);
+            Main.player[projectile.owner].statLife += heal;
 
             Main.PlaySound(SoundID.Shatter, projectile.position); //Play glass shatter sound where the projectile is
 

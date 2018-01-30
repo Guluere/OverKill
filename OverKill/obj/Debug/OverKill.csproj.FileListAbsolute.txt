@@ -7,3 +7,4 @@ C:\Users\kmill\Desktop\Folders\GuluereMod\OverKill\bin\Debug\Microsoft.Xna.Frame
 C:\Users\kmill\Desktop\Folders\GuluereMod\OverKill\bin\Debug\Terraria.exe
 C:\Users\kmill\Desktop\Folders\GuluereMod\OverKill\obj\Debug\OverKill.dll
 C:\Users\kmill\Desktop\Folders\GuluereMod\OverKill\obj\Debug\OverKill.pdb
+C:\Users\kmill\Desktop\Folders\GuluereMod\OverKill\obj\Debug\OverKill.csprojResolveAssemblyReference.cache
