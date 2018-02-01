@@ -1,1 +1,11 @@
-OverKill is a pretty cool mod, it does...this. Modify this file with a description of your mod.
+Like the name states, this mod is a OverKill mod that adds way too many items, npc, bosses and more into the game.
+
+Mod made by Guluere and Zetapology!
+
+Main coder : Zetapology
+
+Main Spriter : Guluere
+
+Sub Spriter : Zetapology
+
+Sub Coder : Guluere

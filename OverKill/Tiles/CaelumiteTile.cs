@@ -4,7 +4,7 @@ using Terraria.ModLoader;
 
 namespace OverKill.Tiles
 {
-    public class Caelumite : ModTile
+    public class CaelumiteTile : ModTile
     {
         public override void SetDefaults()
         {
