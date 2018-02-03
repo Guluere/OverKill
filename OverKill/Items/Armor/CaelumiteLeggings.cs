@@ -10,7 +10,7 @@ namespace OverKill.Items.Armor
 		public override void SetStaticDefaults()
 		{
 			DisplayName.SetDefault("Caelumite Leggings");
-			Tooltip.SetDefault("To be changed"); //This needs to be changed
+			Tooltip.SetDefault("'Steps of the clouds'"); //This needs to be changed
 		}
 		
 		public override void SetDefaults()
@@ -30,7 +30,7 @@ namespace OverKill.Items.Armor
 		public override void AddRecipes()
 		{
 			ModRecipe recipe = new ModRecipe(mod);
-			recipe.AddIngredient(null, "CaelumiteBar", 16)'
+			recipe.AddIngredient(null, "CaelumiteBar", 16);
 			recipe.AddIngredient(ItemID.Leather, 8);
 			recipe.AddTile(TileID.Anvils);
 			recipe.SetResult(this);

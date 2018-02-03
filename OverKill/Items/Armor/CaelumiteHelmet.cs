@@ -10,7 +10,7 @@ namespace OverKill.Items.Armor
         public override void SetStaticDefaults()
         {
             DisplayName.SetDefault("Caelumite Helmet");
-            Tooltip.SetDefault("To be changed");
+            Tooltip.SetDefault("'Warrior of the skies.'");
         }
 
         public override void SetDefaults()

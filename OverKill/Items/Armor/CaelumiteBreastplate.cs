@@ -9,9 +9,8 @@ namespace OverKill.Items.Armor
 	{
 		public override void SetStaticDefaults()
 		{
-			base.SetStaticDefaults();
 			DisplayName.SetDefault("Caelumite Breastplate");
-			Tooltip.SetDefault("To be changed");
+			Tooltip.SetDefault("'Soldier of the heavens.'");
 		}
 		
 		public override void SetDefaults()
