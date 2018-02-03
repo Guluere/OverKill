@@ -1,6 +1,7 @@
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
+using Terraria.Localization;
 
 namespace OverKill.Items.Armor
 {
@@ -10,7 +11,9 @@ namespace OverKill.Items.Armor
 		public override void SetStaticDefaults()
 		{
 			DisplayName.SetDefault("Caelumite Leggings");
-			Tooltip.SetDefault("'Steps of the clouds'"); //This needs to be changed
+            DisplayName.AddTranslation(GameCulture.Spanish, "Grebas de caelumita");
+			Tooltip.SetDefault("'Clouds take these steps'");
+            Tooltip.AddTranslation(GameCulture.Spanish, "Pasos de los nubes");
 		}
 		
 		public override void SetDefaults()

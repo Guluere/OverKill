@@ -11,7 +11,7 @@ namespace OverKill
         {
             if (runIncrease)
             {
-                player.moveSpeed += 10f;
+                player.moveSpeed += 0.1f;
             }
         }
         public override void ResetEffects()

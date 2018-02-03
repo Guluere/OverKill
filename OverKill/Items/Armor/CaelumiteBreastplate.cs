@@ -1,6 +1,7 @@
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
+using Terraria.Localization;
 
 namespace OverKill.Items.Armor
 {
@@ -10,7 +11,9 @@ namespace OverKill.Items.Armor
 		public override void SetStaticDefaults()
 		{
 			DisplayName.SetDefault("Caelumite Breastplate");
-			Tooltip.SetDefault("'Soldier of the heavens.'");
+            DisplayName.AddTranslation(GameCulture.Spanish, "Peto de caelumita");
+			Tooltip.SetDefault("Soldier of the heavens");
+            Tooltip.AddTranslation(GameCulture.Spanish, "Soldado de los cielos");
 		}
 		
 		public override void SetDefaults()

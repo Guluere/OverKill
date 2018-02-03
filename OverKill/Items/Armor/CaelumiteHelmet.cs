@@ -1,6 +1,7 @@
 ﻿using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
+using Terraria.Localization;
 
 namespace OverKill.Items.Armor
 {
@@ -10,6 +11,7 @@ namespace OverKill.Items.Armor
         public override void SetStaticDefaults()
         {
             DisplayName.SetDefault("Caelumite Helmet");
+            DisplayName.AddTranslation(GameCulture.Spanish, "Casco de caelumita");
             Tooltip.SetDefault("'Warrior of the skies.'");
         }
 
@@ -30,6 +32,7 @@ namespace OverKill.Items.Armor
         public override void UpdateArmorSet(Player player)
         {
             player.GetModPlayer<OverkillPlayer>().runIncrease = true;
+            player.jumpBoost = 0.1f;
         }
 
         public override void AddRecipes()
