@@ -1,4 +1,14 @@
-Like the name states, this mod is a OverKill mod that adds way too many items, npc, bosses and more into the game.
+Like the name states, this mod is a OverKill mod that adds way too many items, npc, bosses and more into the game. WIP, don't expect too much.
+
+-6 New weapons
+
+-1 New bullet
+
+-1 New ore 
+
+-3 New bars
+
+-1 New bricks
 
 Mod made by Guluere, Zetapology and PyroManiacs!
 
@@ -9,3 +19,5 @@ Main Spriter : Guluere
 Sub Spriter : Zetapology, PyroManiacs
 
 Sub Coder : Guluere
+
+Enjoy!
