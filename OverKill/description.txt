@@ -1,11 +1,11 @@
 Like the name states, this mod is a OverKill mod that adds way too many items, npc, bosses and more into the game.
 
-Mod made by Guluere and Zetapology!
+Mod made by Guluere, Zetapology and PyroManiacs!
 
-Main coder : Zetapology
+Main coder : Zetapology, PyroManiacs
 
 Main Spriter : Guluere
 
-Sub Spriter : Zetapology
+Sub Spriter : Zetapology, PyroManiacs
 
 Sub Coder : Guluere
