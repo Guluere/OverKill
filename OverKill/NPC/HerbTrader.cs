@@ -125,7 +125,7 @@ namespace OverKill.NPC
             switch (Main.rand.Next(3))
             {
                 case 0:
-                    return "It's 420";
+                    return "Be quick, I think it's almost 420.";
             }
         }
 
