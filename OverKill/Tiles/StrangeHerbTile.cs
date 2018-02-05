@@ -6,7 +6,7 @@ using Microsoft.Xna.Framework;
 
 namespace OverKill.Tiles
 {
-    public class CompressorTile : ModTile
+    public class StrangeHerbTile : ModTile
     {
         public override void SetDefaults()
         {
@@ -15,15 +15,13 @@ namespace OverKill.Tiles
             Main.tileNoAttach[Type] = true;
             Main.tileTable[Type] = true;
             Main.tileLavaDeath[Type] = true;
-            TileObjectData.newTile.CopyFrom(TileObjectData.Style6x3);
+            TileObjectData.newTile.CopyFrom(TileObjectData.Style2x2);
             TileObjectData.newTile.CoordinateHeights = new int[] { 18 };
             TileObjectData.addTile(Type);
             ModTranslation name = CreateMapEntryName();
-            name.SetDefault("Compressor");
+            name.SetDefault("StrangeHerb");
             AddMapEntry(new Color(200, 200, 200), name);
-            dustType = mod.DustType("CompressorDust");
             disableSmartCursor = true;
-            adjTiles = new int[] { TileID.WorkBenches };
         }
 
         public override void NumDust(int i, int j, bool fail, ref int num)
@@ -33,7 +31,7 @@ namespace OverKill.Tiles
 
         public override void KillMultiTile(int i, int j, int frameX, int frameY)
         {
-            Item.NewItem(i * 16, j * 16, 32, 16, mod.ItemType("Compressor"));
+            Item.NewItem(i * 16, j * 16, 32, 16, mod.ItemType("StrangeHerbs"));
         }
     }
 }

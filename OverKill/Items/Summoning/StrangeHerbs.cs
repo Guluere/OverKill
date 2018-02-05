@@ -19,15 +19,16 @@ namespace OverKill.Items.Summoning
 
         public override void SetDefaults()
         {
-            item.width = 20;
-            item.height = 20;
+            item.width = 44;
+            item.height = 44;
             item.maxStack = 20;
             item.value = 100;
             item.rare = 1;
             item.useAnimation = 40;
             item.useTime = 45;
             item.consumable = true;
-
+            item.createTile = mod.TileType("StrangeHerbTile");
+            item.placeStyle = 0;
             item.useStyle = 4;
         }
 
