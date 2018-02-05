@@ -1,3 +1,3 @@
 author = Guluere, Zetapology and PyroManiacs!
-version = 0.10.46
+version = 0.10.47
 displayName = OverKill

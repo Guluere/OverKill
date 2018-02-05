@@ -10,11 +10,11 @@ Like the name states, this mod is a OverKill mod that adds way too many items, n
 
 -1 New bricks
 
-Mod made by Guluere, Zetapology and PyroManiacs!
+Mod made by Guluere, Zetapology, PyroManiacs and ElementalSquid!
 
 Main coder : Zetapology, PyroManiacs
 
-Main Spriter : Guluere
+Main Spriter : Guluere, Elemental Squid
 
 Sub Spriter : Zetapology, PyroManiacs
 

@@ -1,1 +1,1 @@
-# Terraria-Mod-Team-w-Dogge-
+# A terraria mod called OverKill developed by 2 coders : Zetapology, PyroManiacs and 2 spriters : Guluere, ElementalSquid
