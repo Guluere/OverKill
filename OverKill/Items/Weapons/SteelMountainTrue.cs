@@ -5,7 +5,7 @@ using Terraria.Localization;
 
 namespace OverKill.Items.Weapons
 {
-    public class TrueSteelSword : ModItem
+    public class SteelMountainTrue : ModItem
     {
         public override void SetStaticDefaults()
         {
