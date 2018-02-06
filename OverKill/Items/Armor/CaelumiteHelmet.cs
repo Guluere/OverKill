@@ -32,7 +32,6 @@ namespace OverKill.Items.Armor
         public override void UpdateArmorSet(Player player)
         {
             player.GetModPlayer<OverkillPlayer>().runIncrease = true;
-            player.jumpBoost = 0.1f;
         }
 
         public override void AddRecipes()

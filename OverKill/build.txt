@@ -1,3 +1,5 @@
 author = Guluere, Zetapology and PyroManiacs!
 version = 0.10.47
 displayName = OverKill
+homepage = https://discord.gg/z62dyu5
+includePDB = true
