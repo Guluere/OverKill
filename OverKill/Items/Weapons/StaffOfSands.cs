@@ -5,7 +5,7 @@ using Terraria.Localization;
 
 namespace OverKill.Items.Weapons
 {
-    public class SummonStaff : ModItem
+    public class StaffOfSands : ModItem
     {
         public override void SetStaticDefaults()
         {
