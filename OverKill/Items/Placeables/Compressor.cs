@@ -29,7 +29,7 @@ namespace OverKill.Items.Placeables
             item.useStyle = 1;
             item.consumable = true;
             item.value = 150;
-            item.createTile = mod.TileType("Compressor");
+            item.createTile = mod.TileType("CompressorTile");
         }
 
         public override void AddRecipes()
